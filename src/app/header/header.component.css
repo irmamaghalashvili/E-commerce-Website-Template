@@ -1,0 +1,82 @@
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button {
+    color: rgba(255, 255, 255, 1);
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+.sign-up-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 1);
+    height: 38px;
+    color: rgba(255, 255, 255, 1);
+}
+.sign-up-head-p {
+    font-weight: 400;
+    size: 14px;
+    line-height: 18.9px;
+    max-width: 351px;
+    width: 100%;
+    height: 34px;
+}
+.sign-up-head-p a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-ul li {
+    margin-right: 15px;
+}
+
+.search-container-form input {
+    background-image: url("../../assets/Frame.svg");
+    background-position: 10px 14px; 
+    background-repeat: no-repeat;
+    max-width: 577px;
+    height: 48px;
+    border-radius: 62px;
+    gap: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* find clothes */
+
+.find-clothes {
+    height: 663px;
+    background-color: rgba(242, 240, 241, 1);
+}
+.find-clothes-container {
+    width: 596px;
+}
+.find-clothes-container th {
+    height: 74px;
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 700;
+}
+.find-clothes-container td {
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
