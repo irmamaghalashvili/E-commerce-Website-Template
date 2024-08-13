@@ -1,3 +1,4 @@
+
 a {
     text-decoration: none;
 }
@@ -31,12 +32,6 @@ button {
 .sign-up-head-p a {
     color: rgba(255, 255, 255, 1);
     text-decoration: underline;
-}
-.navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
 }
 .nav-ul {
     display: flex;
