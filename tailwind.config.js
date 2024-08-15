@@ -16,7 +16,9 @@ module.exports = {
       colors: {
         'clothGray': 'rgba(242, 240, 241, 1)',
         'clothP': 'rgba(0, 0, 0, 0.6)',
-        'clothbtn': 'rgba(0, 0, 0, 1)'
+        'clothbtn': 'rgba(0, 0, 0, 1)',
+        'priceclr': 'rgba(0, 0, 0, 0.4)',
+        'saleClr': 'rgba(255, 51, 51, 0.1)'
 
       }
     },

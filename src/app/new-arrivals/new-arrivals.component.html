@@ -1,39 +1,50 @@
 
-<section class="mt-[50px] lg:mt-[72px] p-pm lg-p-pl">
+<section class="mt-[50px] lg:mt-[72px] p-pm lg-p-pl flex flex-col items-center">
     <h2 class="uppercase font-bold text-[32px] lg:text-[48px] text-center mb-[32px] lg:mb-[52px]">new arrivals</h2>
     <div class="flex px-pm lg:px-pl flex-wrap justify-center">
         <div class="w-[198px] lg:w-[295px]">
             <div class="px-pm">
-               <img class="rounded-lg h-[200px] lg:h-[298px]" src="../../assets/top.png" alt="cloth"> 
+               <img class="rounded-2xl h-[200px] lg:h-[298px]" src="../../assets/top.png" alt="cloth"> 
             </div>
-            <p>T-SHIRT WITH TAPE DETAILS</p>
+            <p class="font-bold text-[16px] lg:text-[20px]">T-SHIRT WITH TAPE DETAILS</p>
             <span></span>
-            <span></span>
+            <span class="font-bold TEXT-[20px] lg:text-[24px]">$120</span>
         </div>
         <div class="w-[198px] lg:w-[295px]">
             <div class="px-pm">
-               <img class="rounded-lg h-[200px] lg:h-[298px]" src="../../assets/jeans.png" alt="cloth"> 
+               <img class="rounded-2xl h-[200px] lg:h-[298px]" src="../../assets/jeans.png" alt="cloth"> 
             </div>
-            <p>SKINNY FIT JEANS</p>
-            <span></span>
-            <span></span>
+            <p class="font-bold text-[16px] lg:text-[20px]">SKINNY FIT JEANS</p>
+            <span> 
+                <!-- <app-star-rating *ngFor="let star of stars" [rating]="5">55</app-star-rating> -->
+            </span>
+            <span class="font-bold TEXT-[20px] lg:text-[24px]">$240</span>
+            <span class="font-bold TEXT-[20px] lg:text-[24px] text-priceclr mx-[5px] lg:mx-[10px]">$260</span>
+            <span class="bg-saleClr text-red-600 w-[42px] lg:w-[58px] h-[20px] lg:h-[28px] text-[10px] lg:text-[12px] px-[14px] py-[6px] rounded-full">-20%</span>
         </div>
         <div class="w-[198px] lg:w-[295px] hidden lg:block">
             <div class="px-pm">
-               <img class="rounded-lg h-[200px] lg:h-[298px]" src="../../assets/shurt.png" alt="cloth"> 
+               <img class="rounded-2xl h-[200px] lg:h-[298px]" src="../../assets/shurt.png" alt="cloth"> 
             </div>
-            <p>CHECKERED SHIRT</p>
+            <p class="font-bold text-[16px] lg:text-[20px]">CHECKERED SHIRT</p>
             <span></span>
-            <span></span>
+            <span class="font-bold TEXT-[20px] lg:text-[24px]">$180</span>
         </div>
         <div class="w-[198px] lg:w-[295px] hidden lg:block">
             <div class="px-pm">
                <img class="rounded-lg h-[200px] lg:h-[298px]" src="../../assets/redtop.png" alt="cloth"> 
             </div>
-            <p>SLEEVE STRIPED T-SHIRT</p>
+            <p class="font-bold text-[16px] lg:text-[20px]">SLEEVE STRIPED T-SHIRT</p>
             <span appStarRating></span>
-            <span></span>
+            <span class="font-bold TEXT-[20px] lg:text-[24px]">$130</span>
+            <span class="font-bold TEXT-[20px] lg:text-[24px] text-priceclr mx-[5px] lg:mx-[10px]">$160</span>
+            <span class="bg-saleClr text-red-600 w-[42px] lg:w-[58px] h-[20px] lg:h-[28px] text-[10px] lg:text-[12px] px-[14px] py-[6px] rounded-full">-30%</span>
         </div>
     </div>
+    <button
+      class="text-4 whitespace-nowrap bg-white text-black border rounded-full px-[54px] py-4 w-[100%] md:w-min mt-[24px] lg:mt-[36px] mb-[40px] lg:mb-[64px]"
+    >
+      View All
+    </button>
 </section>
-
+<div class="border bg-gray-300 mx-[16px] lg:mx-[100px]"></div>
