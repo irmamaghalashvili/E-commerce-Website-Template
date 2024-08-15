@@ -9,6 +9,10 @@ module.exports = {
         'pm': '16px',
         'pl': '100px'
       },
+      margin: {
+        'mm': '16px',
+        'ml': '100px'
+      },
       colors: {
         'clothGray': 'rgba(242, 240, 241, 1)',
         'clothP': 'rgba(0, 0, 0, 0.6)',
