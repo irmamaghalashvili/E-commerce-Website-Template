@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('FONTSPRINGDEMO-IntegralCFBoldRegular.eot');
+    src: url('FONTSPRINGDEMO-IntegralCFBoldRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-IntegralCFBoldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-IntegralCFBoldRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-IntegralCFBoldRegular.ttf') format('truetype'),
+        url('FONTSPRINGDEMO-IntegralCFBoldRegular.svg#FONTSPRINGDEMO-IntegralCFBoldRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

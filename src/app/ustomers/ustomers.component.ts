@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import { H2styleDirectiveDirective } from '../h2style-directive.directive';
 @Component({
   selector: 'app-ustomers',
   standalone: true,
-  imports: [],
+  imports: [H2styleDirectiveDirective],
   templateUrl: './ustomers.component.html',
   styleUrl: './ustomers.component.css'
 })

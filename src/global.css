@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../src/fonts/Fontspring-DEMO-integralcf-bold.otf');
+    src: url('../src/fonts/Fontspring-DEMO-integralcf-extrabold.otf') format('embedded-opentype'),
+        url('../src/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff2') format('woff2'),
+        url('../src/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff') format('woff'),
+        url('../src/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.ttf') format('truetype'),
+        url('../src/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.svg#FONTSPRINGDEMO-IntegralCFBoldRegular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'satoshi';
+    src: url('../src/fonts/Satoshi-Black.eot');
+    src: url('../src/fonts/Satoshi-Black.otf') format('embedded-opentype'),
+        url('../src/fonts/Satoshi-Black.ttf') format('truetype'),
+        url('../src/fonts/Satoshi-Black.woff') format('woff'),
+        url('../src/fonts/Satoshi-Black.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+}

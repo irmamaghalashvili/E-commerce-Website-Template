@@ -20,6 +20,16 @@ module.exports = {
         'priceclr': 'rgba(0, 0, 0, 0.4)',
         'saleClr': 'rgba(255, 51, 51, 0.1)'
 
+      },
+      fontFamily: {
+        'integralCF': ['IntegralCF'],
+        'satoshi': ['satoshi']
+      },
+      fontWeight: {
+        'h2': 'bold'
+      },
+      textTransform: {
+        'h2': 'uppercase'
       }
     },
   },
