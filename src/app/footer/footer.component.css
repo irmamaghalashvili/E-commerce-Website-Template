@@ -1,0 +1,6 @@
+.footer-headers {
+    @apply text-[14px] lg:text-[16px] font-medium;
+}
+.footer-a-tags {
+    @apply text-[14px] lg:text-[16px] font-normal;
+}
