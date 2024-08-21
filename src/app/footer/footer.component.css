@@ -1,6 +1,11 @@
 .footer-headers {
     @apply text-[14px] lg:text-[16px] font-medium;
-}
-.footer-a-tags {
+  }
+  
+  .footer-a-tags {
     @apply text-[14px] lg:text-[16px] font-normal;
-}
+  }
+  
+  .one-div {
+    @apply flex flex-col gap-4 mb-[40px];
+  }

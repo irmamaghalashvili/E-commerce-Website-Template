@@ -1,0 +1,136 @@
+<section class="flex flex-col px-pm lg:px-pl">
+  <div class="flex text-center">
+    <div class="flex flex-col w-[33%]">
+      <div class="py-2">Product Details</div>
+      <div class="h-[2px] bg-slate-200"></div>
+    </div>
+    <div class="flex flex-col w-[33%]">
+      <div class="py-2">Rating & Reviews</div>
+      <div class="h-[2px] bg-black"></div>
+    </div>
+    <div class="flex flex-col w-[33%]">
+      <div class="py-2">FAQs</div>
+      <div class="h-[2px] bg-slate-200"></div>
+    </div>
+  </div>
+
+  <div class="flex justify-around py-5 lg:py-6">
+    <div>
+      <span class="text-5 font-bold">All Reviews </span>
+      <span class="text-[14px] text-gray-400">(451)</span>
+    </div>
+    <div class="flex gap-2">
+      <button class="w-10 lg:w-12 h-10 lg:h-12 rounded-full bg-slate-200" >&#11206;</button>
+      <button class="hidden lg:block w-[120px] h-12 rounded-full bg-slate-200">Latest &#11206;</button>
+      <button class="w-[113px] lg:w-[166px] lg:h-[48px] h-[40px] bg-black text-white rounded-full text-[12px] lg:text-[16px]">Write a Review</button>
+    </div>
+  </div>
+  <div class="flex flex-wrap flex-col lg:flex-row items-center gap-4">
+    <div class="flex flex-col p-[24px] lg:px-[32px] lg:py-[28px] w-[358px] lg:w-[610px] border-[1px] rounded-2xl">
+      <span class="flex justify-between">
+        <app-star-raiting [star]="9"></app-star-raiting>
+        <img class="hidden lg:block" src="../../assets/dots.svg" alt="dots" />
+      </span>
+      <div class="flex">
+        <h6 class="text-[16px] lg:text-[20px] font-bold">Samantha D.</h6>
+        <img src="../../assets/green-mark.svg" alt="mark" />
+      </div>
+      <p class="text-[14px] lg:text-[16px] font-normal text-gray-400">
+        "I absolutely love this t-shirt! The design is unique and the fabric
+        feels so comfortable. As a fellow designer, I appreciate the attention
+        to detail. It's become my favorite go-to shirt."
+      </p>
+      <span class="text-[14px] lg:text-[16px] font-normal text-gray-400">Posted on August 14, 2023</span>
+    </div>
+
+    <div class="flex flex-col p-[24px] lg:px-[32px] lg:py-[28px] w-[358px] lg:w-[610px] border-[1px] rounded-2xl">
+      <span class="flex justify-between">
+        <app-star-raiting [star]="8"></app-star-raiting>
+        <img class="hidden lg:block" src="../../assets/dots.svg" alt="dots" />
+      </span>
+      <div class="flex">
+        <h6 class="text-[16px] lg:text-[20px] font-bold">Alex M.</h6>
+        <img src="../../assets/green-mark.svg" alt="mark" />
+      </div>
+      <p class="text-[14px] lg:text-[16px] font-normal text-gray-400">
+        "The t-shirt exceeded my expectations! The colors are vibrant and the
+        print quality is top-notch. Being a UI/UX designer myself, I'm quite
+        picky about aesthetics, and this t-shirt definitely gets a thumbs up
+        from me."
+      </p>
+      <span class="text-[14px] lg:text-[16px] font-normal text-gray-400">Posted on August 15, 2023</span>
+    </div>
+
+    <div class="flex flex-col p-[24px] lg:px-[32px] lg:py-[28px] w-[358px] lg:w-[610px] border-[1px] rounded-2xl">
+      <span class="flex justify-between">
+        <app-star-raiting [star]="7"></app-star-raiting>
+        <img class="hidden lg:block" src="../../assets/dots.svg" alt="dots" />
+      </span>
+      <div class="flex">
+        <h6 class="text-[16px] lg:text-[20px] font-bold">Ethan R.</h6>
+        <img src="../../assets/green-mark.svg" alt="mark" />
+      </div>
+      <p class="text-[14px] lg:text-[16px] font-normal text-gray-400">
+        "This t-shirt is a must-have for anyone who appreciates good design. The
+        minimalistic yet stylish pattern caught my eye, and the fit is perfect.
+        I can see the designer's touch in every aspect of this shirt."
+      </p>
+      <span class="text-[14px] lg:text-[16px] font-normal text-gray-400">Posted on August 16, 2023</span>
+    </div>
+
+    <div class="hidden lg:flex flex-col p-[24px] lg:px-[32px] lg:py-[28px] w-[358px] lg:w-[610px] border-[1px] rounded-2xl">
+      <span class="flex justify-between">
+        <app-star-raiting [star]="8"></app-star-raiting>
+        <img src="../../assets/dots.svg" alt="dots" />
+      </span>
+      <div class="flex">
+        <h6 class="text-[16px] lg:text-[20px] font-bold">Olivia P.</h6>
+        <img src="../../assets/green-mark.svg" alt="mark" />
+      </div>
+      <p class="text-[14px] lg:text-[16px] font-normal text-gray-400">
+        "As a UI/UX enthusiast, I value simplicity and functionality. This
+        t-shirt not only represents those principles but also feels great to
+        wear. It's evident that the designer poured their creativity into making
+        this t-shirt stand out."
+      </p>
+      <span class="text-[14px] lg:text-[16px] font-normal text-gray-400" >Posted on August 17, 2023</span>
+    </div>
+
+    <div class="hidden lg:flex flex-col p-[24px] lg:px-[32px] lg:py-[28px] w-[358px] lg:w-[610px] border-[1px] rounded-2xl">
+      <span class="flex justify-between">
+        <app-star-raiting [star]="8"></app-star-raiting>
+        <img src="../../assets/dots.svg" alt="dots" />
+      </span>
+      <div class="flex">
+        <h6 class="text-[16px] lg:text-[20px] font-bold">Liam K.</h6>
+        <img src="../../assets/green-mark.svg" alt="mark" />
+      </div>
+      <p class="text-[14px] lg:text-[16px] font-normal text-gray-400">
+        "This t-shirt is a fusion of comfort and creativity. The fabric is soft,
+        and the design speaks volumes about the designer's skill. It's like
+        wearing a piece of art that reflects my passion for both design and
+        fashion."
+      </p>
+      <span class="text-[14px] lg:text-[16px] font-normal text-gray-400">Posted on August 18, 2023</span>
+    </div>
+
+    <div class="hidden lg:flex flex-col p-[24px] lg:px-[32px] lg:py-[28px] w-[358px] lg:w-[610px] border-[1px] rounded-2xl">
+      <span class="flex justify-between">
+        <app-star-raiting [star]="9"></app-star-raiting>
+        <img src="../../assets/dots.svg" alt="dots" />
+      </span>
+      <div class="flex">
+        <h6 class="text-[16px] lg:text-[20px] font-bold">Ava H.</h6>
+        <img src="../../assets/green-mark.svg" alt="mark" />
+      </div>
+      <p class="text-[14px] lg:text-[16px] font-normal text-gray-400">
+        "I'm not just wearing a t-shirt; I'm wearing a piece of design
+        philosophy. The intricate details and thoughtful layout of the design
+        make this shirt a conversation starter."
+      </p>
+      <span class="text-[14px] lg:text-[16px] font-normal text-gray-400">Posted on August 19, 2023</span>
+    </div>
+    <button class="w-[195px] lg:w-[230px] h-[47px] lg:h-[52px] border rounded-3xl mt-[20px] lg:mt-[36px] mb-[49px] lg:mb-[64px] text-[14px] font-normal">Load More Reviews</button>
+  </div>
+  
+</section>

@@ -10,11 +10,12 @@ import { ByStyleComponent } from './by-style/by-style.component';
 import { UstomersComponent } from './ustomers/ustomers.component';
 import { StayUptodateComponent } from './stay-uptodate/stay-uptodate.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, SignUpNowComponent, FindClothesComponent, BrandsSectionComponent, NewArrivalsComponent, TopSellingComponent, ByStyleComponent, UstomersComponent, StayUptodateComponent, FooterComponent],
+  imports: [RouterOutlet, HeaderComponent, SignUpNowComponent, FindClothesComponent, BrandsSectionComponent, NewArrivalsComponent, TopSellingComponent, ByStyleComponent, UstomersComponent, StayUptodateComponent, FooterComponent, ProductDetailsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

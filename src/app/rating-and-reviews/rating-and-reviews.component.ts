@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 import { StarRaitingComponent } from '../star-raiting/star-raiting.component';
 
-
 @Component({
-  selector: 'app-ustomers',
+  selector: 'app-rating-and-reviews',
   standalone: true,
   imports: [StarRaitingComponent],
-  templateUrl: './ustomers.component.html',
-  styleUrl: './ustomers.component.css'
+  templateUrl: './rating-and-reviews.component.html',
+  styleUrl: './rating-and-reviews.component.css'
 })
-export class UstomersComponent {
+export class RatingAndReviewsComponent {
 
 }

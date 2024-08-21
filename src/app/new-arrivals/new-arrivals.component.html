@@ -7,7 +7,9 @@
                <img class="rounded-2xl h-[200px] lg:h-[298px]" src="../../assets/top.png" alt="cloth"> 
             </div>
             <p class="font-bold text-[16px] lg:text-[20px]">T-SHIRT WITH TAPE DETAILS</p>
-            <span></span>
+            <span class="flex gap-2">
+                <app-star-raiting [star]="9"></app-star-raiting>4.5/5
+            </span>
             <span class="font-bold TEXT-[20px] lg:text-[24px]">$120</span>
         </div>
         <div class="w-[198px] lg:w-[295px]">
@@ -15,8 +17,8 @@
                <img class="rounded-2xl h-[200px] lg:h-[298px]" src="../../assets/jeans.png" alt="cloth"> 
             </div>
             <p class="font-bold text-[16px] lg:text-[20px]">SKINNY FIT JEANS</p>
-            <span> 
-                <!-- <app-star-rating *ngFor="let star of stars" [rating]="5">55</app-star-rating> -->
+            <span class="flex gap-2"> 
+                <app-star-raiting [star]="7"></app-star-raiting>3.5/5
             </span>
             <span class="font-bold TEXT-[20px] lg:text-[24px]">$240</span>
             <span class="font-bold TEXT-[20px] lg:text-[24px] text-priceclr mx-[5px] lg:mx-[10px]">$260</span>
@@ -27,7 +29,9 @@
                <img class="rounded-2xl h-[200px] lg:h-[298px]" src="../../assets/shurt.png" alt="cloth"> 
             </div>
             <p class="font-bold text-[16px] lg:text-[20px]">CHECKERED SHIRT</p>
-            <span></span>
+            <span class="flex gap-2">
+                <app-star-raiting [star]="9"></app-star-raiting>4.5/5
+            </span>
             <span class="font-bold TEXT-[20px] lg:text-[24px]">$180</span>
         </div>
         <div class="w-[198px] lg:w-[295px] hidden lg:block">
@@ -35,7 +39,9 @@
                <img class="rounded-lg h-[200px] lg:h-[298px]" src="../../assets/redtop.png" alt="cloth"> 
             </div>
             <p class="font-bold text-[16px] lg:text-[20px] ">SLEEVE STRIPED T-SHIRT</p>
-            <span appStarRating></span>
+            <span class="flex gap-2">
+                <app-star-raiting [star]="9"></app-star-raiting>4.5/5
+            </span>
             <span class="font-bold TEXT-[20px] lg:text-[24px]">$130</span>
             <span class="font-bold TEXT-[20px] lg:text-[24px] text-priceclr mx-[5px] lg:mx-[10px]">$160</span>
             <span class="bg-saleClr text-red-600 w-[42px] lg:w-[58px] h-[20px] lg:h-[28px] text-[10px] lg:text-[12px] px-[14px] py-[6px] rounded-full">-30%</span>
